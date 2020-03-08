@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: darkslateblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.GameName {
+    font-size: 60px;
+    margin: 15px 0;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.top button {
+    border-radius: 5px;
+    background: rgb(133, 133, 133);
+    color: #fff;
+    border-style: none;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.top .result {
+    background: rgb(102, 98, 100);
+}
+
+.top .easyGame,
+.top .hardGame {
+    background: rgb(230, 96, 168);
+    width: 200px;
+    font-size: 20px;
+}
+
+.randColors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+}
+
+.randColors .block {
+    display: block;
+    margin: 2%;
+    width: 22%;
+    padding-bottom: 22%;
+    background: white;
+    border-radius: 7%;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
